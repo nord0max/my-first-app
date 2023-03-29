@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Model;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers;
@@ -16,6 +17,11 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         ViewBag.message = "Моя первая Docker программа";
+        using (ApplicationContext db = new ApplicationContext())
+        {
+            var brand = db.Brands.FirstOrDefault();
+            ViewBag.Brand = brand.Name;
+        }
         return View();
     }
 
