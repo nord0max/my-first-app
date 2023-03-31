@@ -16,11 +16,18 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.message = "Моя первая Docker программа";
-        using (ApplicationContext db = new ApplicationContext())
+        try
         {
-            var brand = db.Brands.FirstOrDefault();
-            ViewBag.Brand = brand.Name;
+            ViewBag.message = "Моя первая Docker программа";
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var brand = db.Brands.FirstOrDefault();
+                ViewBag.Brand = brand.Name;
+            }
+        }
+        catch (Exception e)
+        {
+            ViewBag.Brand = e.Message;
         }
         return View();
     }
