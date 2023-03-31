@@ -44,3 +44,4 @@ C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\Mi
 C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\Npgsql.dll
 C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\obj\Debug\net7.0\WebApplication1.csproj.CopyComplete
+C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\appsettings.Production.json

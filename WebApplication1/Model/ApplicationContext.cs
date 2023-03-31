@@ -5,14 +5,16 @@ namespace WebApplication1.Model;
 public class ApplicationContext : DbContext
 {
     public  DbSet<Brand> Brands { get; set; }
+    private string _connectionString;
 
-    public ApplicationContext()
+    public ApplicationContext(string connectionString)
     {
+        _connectionString = connectionString;
         Database.EnsureCreated();
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql("Host=192.168.100.6;Port=5432;Database=pi;Username=postgres;Password=postgres");
+        optionsBuilder.UseNpgsql(_connectionString);
     }
 }
