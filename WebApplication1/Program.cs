@@ -1,8 +1,14 @@
+using Domain.Repository;
+using WebApplication1.Model.Helpers;
+using WebApplication1.Model.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Configuration.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json");
+builder.Services.AddDbProvider(builder.Configuration.GetValue<string>("connectionString"));
+builder.Services.AddScoped<IBootRepository, BootReposirory>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

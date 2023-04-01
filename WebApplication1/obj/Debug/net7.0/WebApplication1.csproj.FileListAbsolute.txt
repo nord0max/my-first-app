@@ -45,3 +45,7 @@ C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\Np
 C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\obj\Debug\net7.0\WebApplication1.csproj.CopyComplete
 C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\appsettings.Production.json
+C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\DataLayer.dll
+C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\Domain.dll
+C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\maks8\RiderProjects\WebApplication1\WebApplication1\bin\Debug\net7.0\Domain.pdb

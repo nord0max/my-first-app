@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using Domain.Repository;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Model;
 using WebApplication1.Models;
@@ -8,12 +9,12 @@ namespace WebApplication1.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly IConfiguration _config;
+    private readonly IBootRepository _repository;
 
-    public HomeController(ILogger<HomeController> logger, IConfiguration config)
+    public HomeController(ILogger<HomeController> logger, IBootRepository repository)
     {
         _logger = logger;
-        _config = config;
+        _repository = repository;
     }
 
     public IActionResult Index()
@@ -21,11 +22,10 @@ public class HomeController : Controller
         try
         {
             ViewBag.message = "Моя первая Docker программа";
-            using (ApplicationContext db = new ApplicationContext(_config.GetValue<string>("connectionString")))
-            {
-                var brand = db.Brands.FirstOrDefault();
-                ViewBag.Brand = brand.Name;
-            }
+
+            var brand = _repository.GetFullBoots();
+            ViewBag.Brand = brand.FirstOrDefault()?.BrandName ?? "Not found";
+
         }
         catch (Exception e)
         {

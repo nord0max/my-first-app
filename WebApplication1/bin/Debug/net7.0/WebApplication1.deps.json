@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "WebApplication1/1.0.0": {
         "dependencies": {
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0-preview.2"
+          "DataLayer": "1.0.0",
+          "Domain": "1.0.0"
         },
         "runtime": {
           "WebApplication1.dll": {}
@@ -172,6 +173,20 @@
             "fileVersion": "8.0.0.0"
           }
         }
+      },
+      "DataLayer/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0-preview.2"
+        },
+        "runtime": {
+          "DataLayer.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
       }
     }
   },
@@ -285,6 +300,16 @@
       "sha512": "sha512-/iTnBkFjOoiIvzAQBo/gFqTfiudKhLsMkl9l0wFW8LqTQ0J5is+Az0uaxNc3CDJlfxb2xHKdQSoFID36T/W5DQ==",
       "path": "npgsql.entityframeworkcore.postgresql/8.0.0-preview.2",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.0-preview.2.nupkg.sha512"
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
