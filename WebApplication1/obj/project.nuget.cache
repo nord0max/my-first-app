@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KiCkP3UjjnaNLr3MiFnbG69gxbyzE36G07RcP624NEbuWNCFJY/XAtT0kI2/j3uO+umd+hGUukWi0f9GJNQ+PA==",
+  "dgSpecHash": "A42bwRFX/ICwimcUZwX7G2eKhelOK4G0GkXL7+IneGWDA7xT3eBgeW6b5t+NjlyN+r+s1ee50eEKZO9vd49xXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\maks8\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\maks8\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\maks8\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.2.23128.3\\microsoft.entityframeworkcore.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\maks8\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.2.23128.3\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\maks8\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.2.23128.3\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.2.23128.3.nupkg.sha512",
@@ -17,8 +19,15 @@
     "C:\\Users\\maks8\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.2.23128.3\\microsoft.extensions.logging.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\maks8\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.2.23128.3\\microsoft.extensions.options.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\maks8\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.2.23128.3\\microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
     "C:\\Users\\maks8\\.nuget\\packages\\npgsql\\8.0.0-preview.2\\npgsql.8.0.0-preview.2.nupkg.sha512",
-    "C:\\Users\\maks8\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0-preview.2\\npgsql.entityframeworkcore.postgresql.8.0.0-preview.2.nupkg.sha512"
+    "C:\\Users\\maks8\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0-preview.2\\npgsql.entityframeworkcore.postgresql.8.0.0-preview.2.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "C:\\Users\\maks8\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Domain.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Model;
 using WebApplication1.Models;
@@ -16,7 +17,7 @@ public class HomeController : Controller
         _logger = logger;
         _repository = repository;
     }
-
+    [Authorize]
     public IActionResult Index()
     {
         try
